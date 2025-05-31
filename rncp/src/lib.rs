@@ -1,12 +1,11 @@
 #![no_std]
+#![forbid(unstable_features)]
+#![forbid(clippy::undocumented_unsafe_blocks)]
 
 extern crate alloc;
 
-pub mod builder;
-pub(crate) mod env;
-pub mod error;
+// | Rewrite |
 pub mod parser;
 
-pub mod prelude {
-    pub use crate::env::*;
-}
+pub mod env;
+pub mod error;
