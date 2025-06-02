@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-rncp = { path = "../rncp", version = "0.1.0" }
+tenu = { path = "../tenu", version = "0.1.0" }
 
 [profile.dev]
 panic = "abort"

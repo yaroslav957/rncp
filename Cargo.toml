@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "rncp", "tests",
+    "tenu", "tests",
 ]
 resolver = "2"
 
